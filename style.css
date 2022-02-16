@@ -1,0 +1,163 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+
+
+
+#navbarNav{
+    justify-content: center;
+}
+
+
+.nav-item{
+    padding-inline: 20px;
+    font-weight: bold;
+}
+
+
+
+.contenido-tarjetas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.btn-primary{
+    background-color: #82142c;
+    border-color: gray;
+}
+
+h5{
+    font-weight: bold;
+}
+
+.seccion-inicio{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer{     /* DISEÑO DEL FOOTER*/
+    font-weight: bold;
+    font-size: 20px;
+    overflow: hidden;
+    padding-bottom: 50px;
+    background-color: #82142c;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding-inline: 0;
+    display: flex;
+    justify-content: center;
+}
+li{
+    padding-inline: 20px;
+}
+
+.iconosFooter{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: xx-large;
+}
+
+.copyFooter{
+    display: flex;
+   justify-content: center; 
+   padding-top: 100px;  
+   font-size: small;
+}
+
+.logoFooter{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.tablaVivienda{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.tituloTabla{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+
+.list-group-item{
+    margin: 30px;
+
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemsTabla{
+    background-color: #d90917;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    padding-inline: 50px;
+    margin: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0px 0px 10px gray;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    padding: 30px;
+    box-shadow: #82142c 0px 0px 10px;   /* BORDE DE LA CABECERA*/
+    background-image: url("http://www.cumbressanpatricio.com/wp-content/uploads/2017/04/banner.jpg");
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  
+}
+
+.tituloAyuda{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: #82142c 0px 0px 10px;   /* BORDE DE LA CABECERA*/
+    background-image: url("http://www.cumbressanpatricio.com/wp-content/uploads/2017/04/banner.jpg");
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.correoAyuda{
+    color: black;
+    text-decoration: underline;
+}
+.correoAyuda:hover{
+    color: black;
+}
